@@ -236,7 +236,7 @@ section {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 20px;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -283,7 +283,7 @@ section {
 }
 
 .hero-title .highlight {
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -647,7 +647,7 @@ section {
 }
 
 .team-member {
-    background: var(--bg-card);
+    background: rgb(0 0 0 / 40%);
     border-radius: 20px;
     padding: 30px;
     text-align: center;
