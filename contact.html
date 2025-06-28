@@ -281,36 +281,22 @@
                 </div>
                 
                 <div class="map-container">
-                    <div class="map-placeholder">
-                        <i class="fas fa-map-marked-alt"></i>
-                        <h4>Interactive Map</h4>
-                        <p>Map will be embedded here</p>
-                        <a href="https://maps.google.com" target="_blank" class="btn btn-outline">
-                            <i class="fas fa-external-link-alt"></i>
-                            Open in Google Maps
-                        </a>
-                    </div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.58091937398!2d72.86501489999999!3d19.213498200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b75d78c4f78d%3A0xda99279267c50407!2sThakur%20Shyamnarayan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1751093031507!5m2!1sen!2sin" 
+                        width="600" 
+                        height="450" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Thakur Shyamnarayan Engineering College Location">
+                    </iframe>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Success Modal -->
-    <div id="successModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Message Sent Successfully!</h3>
-                <span class="modal-close">&times;</span>
-            </div>
-            <div class="modal-body">
-                <i class="fas fa-check-circle success-icon"></i>
-                <p>Thank you for your message. We'll get back to you within 24-48 hours.</p>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" onclick="closeModal()">OK</button>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Footer -->
     <footer class="footer">
@@ -344,7 +330,7 @@
                     <ul>
                         <li><i class="fas fa-map-marker-alt"></i> TSEC, Kandivali (E), Mumbai</li>
                         <li><i class="fas fa-phone"></i> +91 8450935671</li>
-                        <li><i class="fas fa-envelope"></i> iste@tpoly.in</li>
+                        <li><i class="fas fa-envelope"></i>iste@tsecmumbai.in</li>
                     </ul>
                 </div>
             </div>
@@ -356,7 +342,7 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top">
+    <button id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
         <i class="fas fa-arrow-up"></i>
     </button>
 
