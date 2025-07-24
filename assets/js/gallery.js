@@ -45,12 +45,16 @@ const videoModalClose = document.querySelector('.video-modal-close');
 const videoItems = document.querySelectorAll('.video-item');
 
 videoItems.forEach(item => {
-    item.addEventListener('click', () => {
-        const videoUrl = item.getAttribute('data-video-url') || 'https://www.youtube.com/embed/dQw4w9WgXcQ';
-        videoIframe.src = videoUrl;
-        videoModal.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    });
+    const thumbnail = item.querySelector('.video-thumbnail');
+    if (thumbnail) {
+        thumbnail.addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent bubbling to .video-item
+            const videoUrl = item.getAttribute('data-video-url') || 'https://www.youtube.com/embed/dQw4w9WgXcQ';
+            videoIframe.src = videoUrl;
+            videoModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    }
 });
 
 videoModalClose.addEventListener('click', () => {

@@ -15,7 +15,7 @@
   box-shadow: 0 2px 8px rgba(30, 60, 120, 0.06);
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 900px;
+ /*  max-width: 900px; */
 }
 
 .about-title {
@@ -128,6 +128,37 @@
     transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s;
 }
 
+.about-hero-section {
+  background: url('/assets/images/Hero Backgrounds/about_bg.png') center center/cover no-repeat !important;
+  background-color: #222 !important;
+  position: relative;
+  min-height: 350px !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 0;
+  overflow: visible !important;
+  text-align: left !important;
+  padding: 0 !important;
+}
+.about-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  z-index: 1;
+  pointer-events: none;
+}
+.about-hero-section .hero-container,
+.about-hero-section .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
 .about-hero-section, .about-hero-section * {
   color: #111 !important;
   text-shadow: none !important;
@@ -148,4 +179,35 @@
   width: auto;
   height: 32px;
   line-height: 1.2;
+} 
+
+@media (max-width: 768px) {
+  .about-hero-section {
+    min-height: 180px !important;
+    padding: 0 !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .about-hero-section .hero-container {
+    padding: 0 10px !important;
+    min-height: 100px !important;
+  }
+  .about-hero-section .hero-title {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .about-hero-section .hero-subtitle {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .about-hero-section .hero-description {
+    font-size: 0.9rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .about-content {
+    padding: 0.7rem !important;
+    margin: 0.7rem 0 !important;
+    border-radius: 7px !important;
+    box-shadow: 0 1px 4px rgba(30, 60, 120, 0.08) !important;
+  }
 } 
