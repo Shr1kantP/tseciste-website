@@ -1,12 +1,39 @@
 /* ===== REGISTER PAGE SPECIFIC STYLES ===== */
 
 /* Import main styles */
-@import url('main.css');
+@import url('./main.css');
+
+/* Register page specific styles */
+.register-form {
+  background: #f7fbff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(30, 60, 120, 0.06);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.register-form label {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.register-form input,
+.register-form select {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.register-form button {
+  width: 100%;
+}
 
 /* ===== REGISTER SECTION STYLES ===== */
 .register-section {
     padding: var(--section-padding);
-    background: transparent;
+    background: var(--bg-primary);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -54,6 +81,7 @@
     transition: all var(--transition-fast);
     max-width: 100%;
     width: 100%;
+    color: var(--text-primary);
 }
 
 .form-card:hover {

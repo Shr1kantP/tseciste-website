@@ -1,21 +1,33 @@
-/* About Page Specific Styles */
+@import url('./main.css');
 
-.about-section {
-    background: var(--bg-secondary);
+/* About page specific styles */
+.about-header {
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 2rem 0;
+  text-align: center;
+  border-radius: 0 0 24px 24px;
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
+  background: #f7fbff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(30, 60, 120, 0.06);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
 }
 
-.about-text p {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
-    line-height: 1.8;
+.about-title {
+  color: var(--color-primary);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  color: var(--color-text);
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 .about-stats {
@@ -31,6 +43,7 @@
     text-align: center;
     border: 1px solid var(--border-color);
     transition: all var(--transition-fast);
+    color: var(--text-primary);
 }
 
 .stat-card:hover {
@@ -72,6 +85,7 @@
     box-shadow: var(--shadow-light);
     overflow: hidden;
     border: 1px solid var(--border-color);
+    color: var(--text-primary);
 }
 .accordion-header {
     width: 100%;

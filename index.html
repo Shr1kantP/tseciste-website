@@ -30,7 +30,7 @@
     <title>ISTE TSEC - Indian Society for Technical Education</title>
 </head>
 
-<body>
+<body class="theme-bright">
     <!-- Loading Screen -->
     <div id="loading-screen" class="loading-screen">
         <div class="loading-content">
@@ -40,13 +40,6 @@
             <div class="loading-spinner"></div>
             <p>Loading ISTE TSEC...</p>
         </div>
-    </div>
-
-    <!-- Background Elements -->
-    <div class="background-container">
-        <div class="stars"></div>
-        <div class="twinkling"></div>
-        <div class="clouds"></div>
     </div>
 
     <!-- Navigation -->
@@ -79,6 +72,13 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero-section">
+            <div class="hero-carousel">
+                <img src="assets/images/vortexgang.png" class="carousel-slide active" alt="Vortex Team" />
+                <img src="assets/images/dhvani_winning.jpg" class="carousel-slide" alt="Team Dhvani" />
+                <img src="assets/images/lan_tourni_2.jpg" class="carousel-slide" alt="LAN Tournament" />
+                <img src="assets/images/codex_coding.jpg" class="carousel-slide" alt="Codex Competition" />
+                <img src="assets/images/MUN.png" class="carousel-slide" alt="Model United Nations" />
+            </div>
             <div class="hero-container">
                 <div class="hero-content">
                     <h1 class="hero-title">
@@ -93,13 +93,6 @@
                     <div class="hero-buttons">
                         <a href="#about" class="btn btn-primary">Learn More</a>
                         <a href="#events" class="btn btn-secondary">Our Events</a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="floating-elements">
-                        <div class="element element-1"></div>
-                        <div class="element element-2"></div>
-                        <div class="element element-3"></div>
                     </div>
                 </div>
             </div>
@@ -129,21 +122,21 @@
                     </div>
 
                     <div class="about-stats">
-                        <div class="stat-card">
+                        <div class="stat-card" style="background: #fff; border: 2px solid #6ec6f7; box-shadow: 0 2px 8px rgba(30,60,120,0.08);">
                             <div class="stat-icon">
                                 <i class="fas fa-calendar-alt"></i>
                             </div>
                             <div class="stat-number" data-target="100">50+</div>
                             <div class="stat-label">Events Hosted</div>
                         </div>
-                        <div class="stat-card">
+                        <div class="stat-card" style="background: #fff; border: 2px solid #6ec6f7; box-shadow: 0 2px 8px rgba(30,60,120,0.08);">
                             <div class="stat-icon">
                                 <i class="fas fa-users"></i>
                             </div>
                             <div class="stat-number" data-target="500">500+</div>
                             <div class="stat-label">Active Members</div>
                         </div>
-                        <div class="stat-card">
+                        <div class="stat-card" style="background: #fff; border: 2px solid #6ec6f7; box-shadow: 0 2px 8px rgba(30,60,120,0.08);">
                             <div class="stat-icon">
                                 <i class="fas fa-trophy"></i>
                             </div>
@@ -303,33 +296,6 @@
             </div>
         </section>
 
-        <!--  Team Section -->
-        <!-- <section id="team" class="team-section">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Our Team</h2>
-                    <p class="section-subtitle">Meet the dedicated individuals behind ISTE TSEC</p>
-                </div>
-                
-                <div class="team-grid">
-                    <div class="team-member">
-                        <div class="member-image">
-                            <img src="assets/images/committee photo.jpg" alt="Team Member">
-                        </div>
-                        <div class="member-info">
-                            <h4>Shreyas Poddar</h4>
-                            <p>President</p>
-                            <div class="member-social">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more team members as needed -->
-        </div>
-        </div>
-        </section> -->
-
         <!-- Contact Section -->
         <section id="contact" class="contact-section">
             <div class="container">
@@ -370,12 +336,11 @@
                             </div>
                             <div class="contact-details">
                                 <h4>Email</h4>
-                                <p>iste@tpoly.in</p>
+                                <p>iste@tsecmumbai.in</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="contact-form">
+                    <!-- <div class="contact-form" style="flex: 1 1 320px; min-width: 260px;">
                         <form id="contactForm">
                             <div class="form-group">
                                 <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -392,7 +357,7 @@
                             </div>
                             <button type="submit" class="btn btn-primary">Send Message</button>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -412,7 +377,7 @@
                                 class="fab fa-instagram"></i></a>
                         <a href="https://x.com/tsec_iste" target="_blank" rel="noopener"><i
                                 class="fab fa-twitter"></i></a>
-                        <a href="mailto:iste@tpoly.in"><i class="fas fa-envelope"></i></a>
+                        <a href="mailto:iste@tsecmumbai.in"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
 
@@ -427,17 +392,26 @@
                 </div>
 
                 <div class="footer-section">
-                    <h4>Contact Info</h4>
+                    <h4>Find us</h4>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> TSEC, Kandivali (E), Mumbai</li>
-                        <li><i class="fas fa-phone"></i> +91 8450935671</li>
-                        <li><i class="fas fa-envelope"></i>iste@tsecmumbai.in</li>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.58091937398!2d72.86501489999999!3d19.213498200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b75d78c4f78d%3A0xda99279267c50407!2sThakur%20Shyamnarayan%20Engineering%20College!5e0!3m2!1sen!2sin!4v1751093031507!5m2!1sen!2sin" 
+                                width="300" 
+                                height="250" 
+                                style="border:0; border-radius: 0px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Thakur Shyamnarayan Engineering College Location">
+                            </iframe>
+                        </div>
                     </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy;  2025 ISTE TSEC. All rights reserved. | Designed by ISTE TSEC Tech Team.</p>
+                <p>&copy; 2025 ISTE TSEC. All rights reserved. | Designed by ISTE TSEC Tech Team.</p>
             </div>
         </div>
     </footer>
@@ -450,10 +424,47 @@
     <!-- Scripts -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/animations.js"></script>
+    <!-- Theme Toggle Script -->
+    <script>
+(function() {
+    const toggleBtn = document.getElementById('theme-toggle');
+    const icon = toggleBtn.querySelector('i');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme');
+    function setTheme(dark) {
+        if (dark) {
+            document.body.classList.add('dark-theme');
+            icon.classList.remove('fa-sun');
+            icon.classList.add('fa-moon');
+        } else {
+            document.body.classList.remove('dark-theme');
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
+        }
+    }
+    setTheme(savedTheme === 'dark' || (!savedTheme && prefersDark));
+    toggleBtn.addEventListener('click', function() {
+        const isDark = document.body.classList.toggle('dark-theme');
+        icon.classList.toggle('fa-moon', isDark);
+        icon.classList.toggle('fa-sun', !isDark);
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+})();
+</script>
+<script>
+(function() {
+  const slides = document.querySelectorAll('.hero-carousel .carousel-slide');
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }, 3000);
+})();
+</script>
 </body>
 
 </html>
-
 <!-- The final commit has been made by me i.e Shrikant it was a gread experience working on this project i.e Vortex.
  Building the whole committee together was not an easy job but thanks to each one of you to make this project a great success.
  I've attacched all the necesary files in the repository. The website is now complete and ready for deployment. -->

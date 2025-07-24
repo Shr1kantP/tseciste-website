@@ -78,7 +78,7 @@
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--text-secondary);
 }
 
@@ -91,6 +91,34 @@
 .event-actions {
     display: flex;
     gap: 15px;
+}
+
+.event-card.featured, .event-card .event-status.upcoming {
+  max-width: 400px;
+  padding: 1rem 1rem 1.2rem 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(30,60,120,0.08);
+  margin: 0 auto 1.5rem auto;
+}
+.event-card.featured .event-image, .event-card .event-status.upcoming ~ .event-image {
+  height: 320px;
+}
+.event-card.featured .event-image img, .event-card .event-status.upcoming ~ .event-image img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+.event-card.featured .event-content, .event-card .event-status.upcoming ~ .event-content {
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+@media (max-width: 600px) {
+  .event-card.featured, .event-card .event-status.upcoming {
+    max-width: 98vw;
+    padding: 0.7rem 0.5rem 1rem 0.5rem;
+  }
+  .event-card.featured .event-image, .event-card .event-status.upcoming ~ .event-image {
+    height: 100px;
+  }
 }
 
 /* Brochure Section Styles */
@@ -204,4 +232,14 @@
     .pdf-actions .btn {
         width: 100%;
     }
+} 
+
+.hero-section {
+  background: #f7fbff;
+  color: #1a237e;
+  padding: 4rem 0 2rem 0;
+  text-align: center;
+}
+.hero-title, .hero-subtitle, .hero-description {
+  color: #1a237e;
 } 

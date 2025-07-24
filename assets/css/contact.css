@@ -1,1 +1,38 @@
-/* Contact Page Specific Styles */ 
+@import url('./main.css');
+
+/* Contact page specific styles */
+.contact-form {
+  background: #f7fbff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(30, 60, 120, 0.06);
+  padding: 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.contact-form label {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+.hero-section {
+  background: #f7fbff;
+  color: #1a237e;
+  padding: 4rem 0 2rem 0;
+  text-align: center;
+}
+.hero-title, .hero-subtitle, .hero-description {
+  color: #1a237e;
+} 
