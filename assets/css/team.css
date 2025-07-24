@@ -71,12 +71,7 @@
   margin-bottom: 0.5rem;
 }
 
-.hero-section {
-  background: #f7fbff;
-  color: #1a237e;
-  padding: 4rem 0 2rem 0;
-  text-align: center;
-}
-.hero-title, .hero-subtitle, .hero-description {
-  color: #1a237e;
+.team-hero-section, .team-hero-section * {
+  color: #111 !important;
+  text-shadow: none !important;
 }

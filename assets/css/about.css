@@ -126,4 +126,26 @@
     padding: 20px;
     max-height: 500px;
     transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s;
+}
+
+.about-hero-section, .about-hero-section * {
+  color: #111 !important;
+  text-shadow: none !important;
+} 
+
+.join-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.join-actions .btn.btn-secondary {
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 16px;
+  min-width: unset;
+  width: auto;
+  height: 32px;
+  line-height: 1.2;
 } 
