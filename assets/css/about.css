@@ -129,7 +129,7 @@
 }
 
 .about-hero-section {
-  background: url('/assets/images/Hero Backgrounds/about_bg.png') center center/cover no-repeat !important;
+  background: url('/assets/images/Hero Backgrounds/about_bg\ copy.png') center center/cover no-repeat !important;
   background-color: #222 !important;
   position: relative;
   min-height: 350px !important;
