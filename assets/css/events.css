@@ -200,7 +200,7 @@
 } 
 
 .hero-section {
-  background: url('../images/Hero Backgrounds/Event\ page\ copy.png') center center/cover no-repeat;
+  background: url('../images/Hero Backgrounds/event_bg.png') center center/cover no-repeat;
   position: relative;
 }
 .hero-section::before {
