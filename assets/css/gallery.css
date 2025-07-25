@@ -138,37 +138,4 @@
 .gallery-hero-section .hero-content {
   position: relative;
   z-index: 2;
-}
-
-@media (max-width: 768px) {
-  .gallery-hero-section {
-    min-height: 180px !important;
-    padding: 0 !important;
-    flex-direction: column !important;
-    text-align: center !important;
-  }
-  .gallery-hero-section .hero-container {
-    padding: 0 10px !important;
-    min-height: 100px !important;
-  }
-  .gallery-hero-section .hero-title {
-    font-size: 1.5rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-  .gallery-hero-section .hero-subtitle {
-    font-size: 1rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-  .gallery-hero-section .hero-description {
-    font-size: 0.9rem !important;
-    margin-bottom: 1rem !important;
-  }
-  .gallery-grid {
-    grid-template-columns: 1fr !important;
-    gap: 1rem !important;
-  }
-  .gallery-item {
-    width: 100% !important;
-    padding: 0.5rem !important;
-  }
 } 

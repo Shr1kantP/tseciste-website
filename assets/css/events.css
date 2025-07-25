@@ -197,39 +197,6 @@
     .pdf-container iframe {
         height: 500px;
     }
-}
-
-@media (max-width: 768px) {
-  .hero-section {
-    min-height: 180px !important;
-    padding: 0 !important;
-    flex-direction: column !important;
-    text-align: center !important;
-  }
-  .hero-section .hero-container {
-    padding: 0 10px !important;
-    min-height: 100px !important;
-  }
-  .hero-section .hero-title {
-    font-size: 1.5rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-  .hero-section .hero-subtitle {
-    font-size: 1rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-  .hero-section .hero-description {
-    font-size: 0.9rem !important;
-    margin-bottom: 1rem !important;
-  }
-  .events-grid {
-    grid-template-columns: 1fr !important;
-    gap: 1rem !important;
-  }
-  .event-card {
-    width: 100% !important;
-    padding: 1rem !important;
-  }
 } 
 
 .hero-section {

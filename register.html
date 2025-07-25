@@ -20,7 +20,7 @@
   </div>
 
   <!-- Hero Section -->
-  <section class="hero-section">
+<!--   <section class="hero-section">
     <div class="hero-container">
       <div class="hero-content">
         <h1 class="hero-title">
@@ -31,7 +31,7 @@
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Navigation -->
   <nav class="navbar" id="navbar">
@@ -87,7 +87,7 @@
             </div>
             <div class="neo-section">
               <label class="neo-label">Department</label>
-              <input type="text" id="department" name="department" class="neo-input" placeholder="Enter department"
+              <input type="text" id="department" name="department" class="neo-input" placeholder="Enter dept ( eg. IT, CO, etc.)"
                 required>
             </div>
             <div class="neo-section full-width">
@@ -160,27 +160,35 @@
               <input type="email" id="email_of_participant_3" name="email_of_participant_3" class="neo-input"
                 placeholder="Email">
             </div>
-            <div class="neo-section full-width">
+
+
+                     <!-- Photos of participants will be added here connect it to a drive to store the photos -->
+          
+                     <!--   <div class="neo-section full-width">
               <label class="neo-label">Photos of Participants</label>
               <div class="flex flex-col gap-4 sm:flex-row sm:gap-8">
                 <input type="file" id="pictures_of_all_participants" name="pictures_of_all_participants" class="file-upload"
                   accept="image/*">
               </div>
-            </div>
-            <div class="neo-section full-width">
+            </div> -->
+           
+           
+            <!--  <div class="neo-section full-width">
               <label class="neo-label">QR Payment Scan</label>
               <p class="text-sm text-gray-300 mb-3">Scan the QR code below to make the payment, then upload proof of your
                 transaction.</p>
               <img src="https://img.freepik.com/free-vector/qr-code-concept-illustration_114360-23446.jpg"
                 alt="Sample QR Code for Payment" class="qr-image">
-              <!-- <input type="file" id="qr-payment" name="qrPayment" class="file-upload" accept="image/*" required> -->
-            </div>
-            <div class="neo-section full-width">
+            </div> -->
+
+<!-- Proof of payment will be added here connect it to a drive to store the proof of payment & link it to the sheet -->
+
+       <!--      <div class="neo-section full-width">
               <label class="neo-label">Proof of Payment</label>
               <input type="file" id="paymentproof" name="paymentProof" class="file-upload" accept="image/*" required>
-            </div>
+            </div> -->
             <div class="neo-section full-width">
-              <label class="neo-label">Questions about Vortex</label>
+              <label class="neo-label">Questions about the Event</label>
               <textarea id="questions" name="questions" class="neo-textarea" rows="5"
                 placeholder="Enter your cosmic queries"></textarea>
             </div>
@@ -190,7 +198,7 @@
               </div>
               <p id="progress-text" class="progress-text">Uploading...</p>
             </div>
-            <button type="submit" id="submit-btn" class="neo-button full-width">Launch into Vortex</button>
+            <button type="submit" id="submit-btn" class="neo-button full-width">Launch into the event</button>
           </form>
         </div>
       </div>
@@ -225,7 +233,9 @@
         <div class="footer-section">
           <h4>Contact Info</h4>
           <ul>
-            <li><i class="fas fa-map-marker-alt"></i> TSEC, Kandivali (E), Mumbai</li>
+            <li><i class="fas fa-map-marker-alt"></i> ZSCT's Thakur Shyamnarayan Engineering College
+Thakur Complex, West to Western Express Highway
+Kandivali (E), Mumbai - 400 101</li>
             <li><i class="fas fa-phone"></i> +91 8450935671</li>
             <li><i class="fas fa-envelope"></i>iste@tsecmumbai.in</li>
           </ul>
@@ -237,9 +247,6 @@
     </div>
   </footer>
 
-  <div class="copyright-footer" data-reveal>
-    <p>© 2025 ISTE TSEC. All Rights Reserved. | Designed by ISTE TSEC Tech Team</p>
-  </div>
   <script src="assets/js/register.js"></script>
   <script>
     // Theme toggle script will be added in forregisterpage.js

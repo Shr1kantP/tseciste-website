@@ -263,9 +263,9 @@ section {
     position: relative;
     overflow: hidden;
     min-height: 100vh;
-    height: 30vh;
+    height: 60vh;
     width: 100vw;
-    left: 0;
+    margin-top: 70px;
 }
 
 .hero-carousel {
@@ -862,9 +862,10 @@ section {
 }
 
 .footer {
-    background: var(--bg-primary);
+    /* background: rgb(30 35 126 / 0%); */
     border-top: 1px solid var(--border-color);
     padding: 60px 0px 20px;
+    min-width: 76;
 }
 
 .footer-content {
