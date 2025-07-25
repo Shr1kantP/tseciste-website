@@ -328,9 +328,9 @@
                             </div>
                             <div class="contact-details">
                                 <h4>Contact Numbers</h4>
-                                <p>+91 8450935671<br>
-                                    +91 8169036397<br>
-                                    +91 9324178323</p>
+                                <p>+91 89280 71484<br>
+                                    +91 93726 63665<br>
+                                    +91 99874 33097</p>
                             </div>
                         </div>
 
@@ -428,33 +428,7 @@
     <!-- Scripts -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/animations.js"></script>
-    <!-- Theme Toggle Script -->
-    <script>
-(function() {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const icon = toggleBtn.querySelector('i');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const savedTheme = localStorage.getItem('theme');
-    function setTheme(dark) {
-        if (dark) {
-            document.body.classList.add('dark-theme');
-            icon.classList.remove('fa-sun');
-            icon.classList.add('fa-moon');
-        } else {
-            document.body.classList.remove('dark-theme');
-            icon.classList.remove('fa-moon');
-            icon.classList.add('fa-sun');
-        }
-    }
-    setTheme(savedTheme === 'dark' || (!savedTheme && prefersDark));
-    toggleBtn.addEventListener('click', function() {
-        const isDark = document.body.classList.toggle('dark-theme');
-        icon.classList.toggle('fa-moon', isDark);
-        icon.classList.toggle('fa-sun', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    });
-})();
-</script>
+    
 <script>
 (function() {
   const slides = document.querySelectorAll('.hero-carousel .carousel-slide');
