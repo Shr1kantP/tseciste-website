@@ -694,6 +694,7 @@ section {
 .gallery-overlay h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: white;
 }
 
 .gallery-overlay p {
@@ -1084,13 +1085,16 @@ h4,
 h5,
 h6,
 .section-title,
-.hero-title,
-.footer-section h4,
-.event-content h3,
-.gallery-overlay h4,
-.contact-details h4 {
-    color: #ffffff !important;
-}
+  .hero-title,
+  .footer-section h4,
+ .event-content h3
+  {
+      color: #000000 !important;
+  }
+
+  .gallery-overlay h4 {
+      color: white !important;
+  }
 
 .section-subtitle,
 .stat-label,
