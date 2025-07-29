@@ -93,23 +93,30 @@
     gap: 15px;
 }
 
-.event-card.featured, .event-card .event-status.upcoming {
-  max-width: 400px;
-  padding: 1rem 1rem 1.2rem 1rem;
-  border-radius: 14px;
-  box-shadow: 0 2px 8px rgba(30,60,120,0.08);
-  margin: 0 auto 1.5rem auto;
+.event-card.featured,
+.event-card .event-status.upcoming {
+    max-width: 490px;
+    padding: 1rem 1rem 1.2rem 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(30, 60, 120, 0.08);
+    margin: 0 auto 1.5rem auto;
 }
-.event-card.featured .event-image, .event-card .event-status.upcoming ~ .event-image {
-  height: 320px;
+
+.event-card.featured .event-image,
+.event-card .event-status.upcoming~.event-image {
+    height: 501px;
 }
-.event-card.featured .event-image img, .event-card .event-status.upcoming ~ .event-image img {
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px 12px 0 0;
+
+.event-card.featured .event-image img,
+.event-card .event-status.upcoming~.event-image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
 }
-.event-card.featured .event-content, .event-card .event-status.upcoming ~ .event-content {
-  padding: 1rem 0.5rem 0 0.5rem;
+
+.event-card.featured .event-content,
+.event-card .event-status.upcoming~.event-content {
+    padding: 1rem 0.5rem 0 0.5rem;
 }
 
 /* Brochure Section Styles */
@@ -193,28 +200,30 @@
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
+
     .pdf-container iframe {
         height: 500px;
     }
-} 
+}
 
 .hero-section {
-  background: url('../images/Hero Backgrounds/event_bg.png') center center/cover no-repeat;
-  position: relative;
+    background: url('../images/Hero Backgrounds/event_bg.png') center center/cover no-repeat;
+    position: relative;
 }
+
 .hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.35);
-  z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
 }
+
 .hero-section .hero-container,
 .hero-section .hero-content {
-  position: relative;
-  z-index: 2;
-} 
+    position: relative;
+    z-index: 2;
+}
